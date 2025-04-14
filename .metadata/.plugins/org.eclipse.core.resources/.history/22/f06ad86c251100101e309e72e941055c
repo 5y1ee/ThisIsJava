@@ -1,8 +1,0 @@
-package ch06.sec04;
-
-public class Student {
-	public void Func()
-	{
-		System.out.println("ASDF");
-	}
-}
