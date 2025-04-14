@@ -1,0 +1,5 @@
+package clone.dreamo;
+
+public abstract class AUIComponent {
+
+}

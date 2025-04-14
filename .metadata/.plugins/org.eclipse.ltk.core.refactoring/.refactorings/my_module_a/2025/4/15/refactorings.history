@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;dist&apos; to &apos;my_module_b&apos;&#x0D;&#x0A;- Original project: &apos;my_module_a&apos;&#x0D;&#x0A;- Destination element: &apos;my_module_b&apos;&#x0D;&#x0A;- Original element: &apos;dist&apos;" description="Copy folder" destination="=my_module_b" element1="dist" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1744166645939" units="0" version="1.0"/>
+</session>

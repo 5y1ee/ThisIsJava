@@ -1,0 +1,14 @@
+package ch08;
+
+public interface RemoteControl {
+	
+	void turnOn(); // public abstract
+	
+	
+	default void defaultFunc() {
+		System.out.println("Default Method");
+	}
+	
+	
+	
+}

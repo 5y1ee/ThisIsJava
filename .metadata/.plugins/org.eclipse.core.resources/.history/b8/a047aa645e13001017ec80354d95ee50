@@ -1,0 +1,12 @@
+package ch06.sec08.exam01;
+
+public class CalcEx {
+
+	public static void main(String[] args) {
+		System.out.println(new Calculator().plus(10, (int)new Calculator().divide(9, 3)));
+	
+		int var = 99;
+		System.out.println(var);
+	}
+		
+}

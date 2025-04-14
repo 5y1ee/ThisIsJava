@@ -1,0 +1,11 @@
+package ch14.sec03.exam01;
+
+public class Beep implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

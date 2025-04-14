@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;my_module_a/src&apos;&#x0D;&#x0A;- Original project: &apos;my_lib&apos;&#x0D;&#x0A;- Destination element: &apos;my_module_a/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     my_lib/src/pack2&#x0D;&#x0A;     my_lib/src/pack1" description="Copy packages" destination="=my_module_a/src" element1="/src&lt;pack2" element2="/src&lt;pack1" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1744165915615" version="1.0"/>
+</session>
