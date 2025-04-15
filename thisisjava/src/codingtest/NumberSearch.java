@@ -40,12 +40,15 @@ public class NumberSearch {
 //		Func(slist);
 //		System.out.println(slist.toString());
 		
-		List<String> sList = new ArrayList<>();
+		
 		int wordsCnt = words.length;
+		int[] res = new int[wordsCnt];	// 결과값 넣을 배열
 		for (int i=0; i<wordsCnt; ++i) {
+			// words[i]가 가변 가능한 모든 문자열을 담을 리스트
+			List<String> sList = new ArrayList<>();
+			
 			String word = words[i];	// 425
 			int wordCnt = word.length();
-			
 			
 			
 			
@@ -54,7 +57,8 @@ public class NumberSearch {
 		
 	}
 	
-	public static void Func(List<String> list) {
+	
+	public static void Func(List<String> sList, String word, Map<Integer, String[]>) {
 		list.add("new");
 	}
 
