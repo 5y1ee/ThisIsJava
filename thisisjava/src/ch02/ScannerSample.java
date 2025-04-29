@@ -6,11 +6,11 @@ import ch01.Variable;
 
 public class ScannerSample {
 	
-	int m_field;
-	public void func() {
+	static int m_field;
+	public static void func() {
 		System.out.println(m_field);
 		
-		int i_var;
+		int i_var=0;
 		System.out.println(i_var);
 	}
 

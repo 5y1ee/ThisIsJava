@@ -7,7 +7,5 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Aaron/lombok-1.18.38.jar"/>
-	<classpathentry kind="lib" path="C:/Aaron/json-20250107.jar"/>
-	<classpathentry kind="lib" path="C:/Aaron/ojdbc11-23.7.0.25.01.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
