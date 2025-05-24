@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원 가입</title>
+</head>
+<body>
+<script>
+	function fn_sendMember() {
+		var frmMember = document.frmMember;
+		var id = frmMember.id.value;
+		var pwd = frmMember.pwd.value;
+		var name = frmMember.name.value;
+		var email = frmMember.email.value;
+		
+		if (id.length == 0 || id == "") {
+			alert("아이디 입력하세요");
+		} else if (pwd.length == 0 || pwd == "") {
+			alert("비밀번호 입력하세요");
+		} else if (name.length == 0 || name == "") {
+			alert("이름 입력하세요");
+		} else if (email.length == 0 || email == "") {
+			alert("이메일 입력하세요");
+		} else {
+			frmMember.method = "post";
+			frmMember.action = "member3";
+			frmMember.submit();
+		}
+	}
+
+</script>
+
+	<form name="frmMember">
+		<table>
+			<th>회원가입창</th>
+			<tr>
+				<td>id</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			
+			<tr>
+				<td>pwd</td>
+				<td><input type="password" name="pwd"></td>
+			</tr>
+			
+			<tr>
+				<td>name</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			
+			<tr>
+				<td>email</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+		</table>
+		
+		<input type="button" value="regist" onclick="fn_sendMember()">
+		<input type="reset" value="rewrite">
+		<input type="hidden" name="command" value="addMember" />
+		
+		
+	</form>
+
+
+</body>
+</html>

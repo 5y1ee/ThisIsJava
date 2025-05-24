@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	window.onload = function() {
+		document.querySelector("#btn").onclick = fn_validate;
+	}
+
+	function fn_validate() {
+		var frmLogin = document.frmLogin;
+		var user_id = frmLogin.user_id.value;
+		var user_pw = frmLogin.user_pw.value;
+		
+		if ((user_id.length==0 || user_id=="") ||
+				(user_pw.length==0 || user_pw=="")) {
+			alert("제대로 입력")
+		} else {
+			console.log(user_id);
+			frmLogin.method = "post";
+			frmLogin.action = "login5";
+			frmLogin.submit();
+		}
+		
+	}
+</script>
+
+</head>
+<body>
+	<form name="frmLogin" method="get" action="login5" encType="UTF-8">
+		아이디 : <input type="text" name="user_id"><br>
+		비밀번호 : <input type="password" name="user_pw"><br>
+		
+		<input type="checkbox" name="subject" value="Java" checked> 자바
+		<input type="checkbox" name="subject" value="C++" checked> C++
+		<input type="checkbox" name="subject" value="C#" checked> C#
+		<input type="checkbox" name="subject" value="JSP" checked> JSP
+		
+		<input type="button" id="btn" value="로그인"> <!-- onClick="fn_validate()" -->
+		<input type="reset" value="다시입력">
+		<input type="hidden" name="user_address" value="서울시 마포구" />
+	</form>
+</body>
+</html>
